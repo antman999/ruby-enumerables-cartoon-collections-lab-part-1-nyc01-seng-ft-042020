@@ -6,7 +6,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |greeting , skrt|
-    puts "#{skrt}. #{greeting}"
+    puts "#{skrt +1}. #{greeting}"
  
 end
 end
